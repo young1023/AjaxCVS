@@ -1,0 +1,127 @@
+.mt15 { margin-top:15px; }
+.mt10 { margin-top:10%; }
+.mb10 { margin-bottom:10px; }
+.align-c { text-align:center; }
+.Title { position:relative }
+.login-background {
+	background-color:#FFF;
+	box-shadow: -0px -0px 1px 1px #D7D7D7;	
+	padding:20px;
+}
+a { text-decoration:none }
+
+Table.Report
+{ 
+  position: relative;
+  top: 120px;
+  border: 0; 
+  text-decoration:none;
+  font-family: arial; 
+  font-size:16px; 
+} 
+
+Table.DailyReport
+{ 
+  border: 0; 
+  text-decoration:none;
+  font-family: arial; 
+  font-size:14px; 
+} 
+
+/* Form */
+Table.Login
+{ 
+  position: relative;
+  top: 200px; 
+  border: 0; 
+  font-family: arial; 
+  font-size:16px; 
+} 
+
+/* Form */
+Table.Ver
+{ 
+  position: relative;
+  top: 100px; 
+  border: 0; 
+  font-family: arial; 
+  font-size:16px; 
+} 
+
+
+th { 
+  background-color:yellow; 
+} 
+
+tr td{
+  white-space: nowrap;
+}
+
+/* Message */
+.Message
+{ 
+  position: relative; 
+  top: 250px; 
+  left: 400px; 
+  color:red
+}  
+
+.MessageDisplay
+{ 
+  position: absolute; 
+  top: 550px; 
+  left: 400px; 
+  color:red
+}  
+
+/* Button */
+.button
+{
+   font-family: arial; 
+   font-size:14px; 
+
+}
+
+/* Input Field */
+input, select, textarea 
+{
+   font-family: arial; 
+   font-size:16px;
+}
+
+@media print 
+{
+
+Body
+{
+     margin-top:10px;
+     margin-right:10px;
+     margin-left:10px;
+     margin-bottom:10px;
+     
+}
+
+table
+{
+     border-collapse:collapse;
+}
+
+table, td
+{
+     border:1px dotted black;
+     white-space: nowrap;
+}
+
+.noprint {
+
+    display: none;
+       
+    	}
+
+.noborder {
+
+    border-width: 0;
+
+}
+
+}
