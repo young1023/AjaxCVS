@@ -59,7 +59,7 @@
     }
 %>
 
-	     &nbsp;&nbsp;<input type="text" name="Barcode" size="15" maxlength=15 value="<%= Barcode %>">
+	     &nbsp;&nbsp;<input type="text" name="Barcode" size="15" maxlength=15 value="">
 		 &nbsp;&nbsp;<input type="button" value="禮券編號" onClick="findenum();">
 </span>	   </td>
                               </tr>
